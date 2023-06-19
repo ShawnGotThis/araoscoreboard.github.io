@@ -176,5 +176,12 @@ button:active {
         box-shadow:  13px 13px 26px #ba9999,
                -13px -13px 26px #ffffff;
       }
+    .para {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+        color: #333333;
+    }
     
 }
