@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="scoreboard">
+          <h1>SCOREBOARD</h1>
+          <div class="player">
+            <label for="player1">Home:</label>
+            <input type="text" name="text" class="input" placeholder="Name/Team">
+            <div class="score">
+              <span id="score1">0</span>
+            </div>
+            <div class="buttons">
+              <button id="addBtn1">+</button>
+              <button id="subsBtn1">-</button>
+              <button id="resetBtn1">Reset</button>
+            </div>
+          </div> <br>
+          <div class="player">
+            <label for="player2">Guest:</label>
+            <input type="text" name="text" class="input" placeholder="Name/Team">
+            <div class="score">
+              <span id="score2">0</span>
+            </div>
+            <div class="buttons">
+              <button id="addBtn2">+</button>
+              <button id="subsBtn2">-</button>
+              <button id="resetBtn2">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
