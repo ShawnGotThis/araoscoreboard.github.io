@@ -158,3 +158,17 @@ button:active {
 .input:active {
     box-shadow: 2px 2px 15px #8707ff inset;
 }
+
+@media (max-width: 450px) { 
+    .scoreboard {
+        max-width: 300px;
+        width: 350px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 37px;
+        background: linear-gradient(145deg, #e6bcbc, #ffe0e0);
+        box-shadow:  13px 13px 26px #ba9999,
+               -13px -13px 26px #ffffff;
+      }
+    
+}
